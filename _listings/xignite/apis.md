@@ -7,82 +7,80 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Open
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Xignite Bonds Get Daily Open High Low Close Price
-  x-api-slug: xignite-bonds
+- name: Xignite Bonds - Get Daily Open High Low Close Price
+  x-api-slug: getdailyopenhighlowcloseprice-get
   description: Returns daily Open, High, Low, Close (OHLC) prices for a specific bond
     reported by the price source selected in the input. Daily OHLC data is provided
     for the most recent date for which data is provided by the price source. Request
     against this operation counts as one hit.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://bonds.xignite.com/xBonds.json/XigniteBonds//GetDailyOpenHighLowClosePrice
-  tags: Market Data,Daily, Open, High, Low, Close, Price
+  baseURL: https://bonds.xignite.com/xBonds.json/XigniteBonds
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/xignite/getdailyopenhighlowcloseprice-get-openapi.md
-- name: Xignite Bonds Get Daily Open High Low Close Prices
-  x-api-slug: xignite-bonds
+- name: Xignite Bonds - Get Daily Open High Low Close Prices
+  x-api-slug: getdailyopenhighlowcloseprices-get
   description: Returns daily Open, High, Low, Close (OHLC) prices for the list of
     bonds specified in the input. Daily OHLC data is provided for the most recent
     date for which data is provided by the price source. Each DailyOpenHighLowClosePrice
     object  returned counts as one hit.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://bonds.xignite.com/xBonds.json/XigniteBonds//GetDailyOpenHighLowClosePrices
-  tags: Market Data,Daily, Open, High, Low, Close, Prices
+  baseURL: https://bonds.xignite.com/xBonds.json/XigniteBonds
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/xignite/getdailyopenhighlowcloseprices-get-openapi.md
-- name: Xignite Bonds
-  x-api-slug: xignite-bonds
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://bonds.xignite.com/xBonds.json/XigniteBonds
-  tags: Open
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/xignite/openapi.md
-- name: Xignite Global Holidays Are Exchanges Open
-  x-api-slug: xignite-global-holidays
+- name: Xignite Global Holidays - Are Exchanges Open
+  x-api-slug: areexchangesopen-get
   description: Are exchanges open.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalholidays.xignite.com/xGlobalHolidays.json/XigniteGlobalHolidays//AreExchangesOpen
-  tags: Are, Exchanges, Open
+  baseURL: https://globalholidays.xignite.com/xGlobalHolidays.json/XigniteGlobalHolidays
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/xignite/areexchangesopen-get-openapi.md
-- name: Xignite Global Holidays Is Exchange Open On Date
-  x-api-slug: xignite-global-holidays
+- name: Xignite Global Holidays - Is Exchange Open On Date
+  x-api-slug: isexchangeopenondate-get
   description: Is exchange open on date.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalholidays.xignite.com/xGlobalHolidays.json/XigniteGlobalHolidays//IsExchangeOpenOnDate
-  tags: Exchange, Open, On, Date
+  baseURL: https://globalholidays.xignite.com/xGlobalHolidays.json/XigniteGlobalHolidays
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/xignite/isexchangeopenondate-get-openapi.md
-- name: Xignite Global Holidays
-  x-api-slug: xignite-global-holidays
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalholidays.xignite.com/xGlobalHolidays.json/XigniteGlobalHolidays
-  tags: Open
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/xignite/openapi.md
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
+- type: x-api-gallery
+  url: http://xibo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://xignite.stack.network
 - type: x-base
   url: http://globalmaster.xignite.com
 - type: x-case-studies

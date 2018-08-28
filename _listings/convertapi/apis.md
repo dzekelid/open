@@ -7,55 +7,50 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/357-conver
 x-kinRank: "8"
 x-alexaRank: "717909"
 tags: Open
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/convertapi/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Convert API Open Office to Image
-  x-api-slug: convert-api
+- name: Convert API - Open Office to Image
+  x-api-slug: openoffice2image-post
   description: The API for converting OpenOffice documents to PDF files and Images.
     These file formats mml, odc, odf, odg, odi, odm, odp, ods, odt, otg, oth, otp,
     ots, pxl, sgl, smf, srw, stc, sti, stw, sxc, sxg, sxi, sxm, sxw, vor, wv2 can
     be converted to png, jpg, tif.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/357-convertapi.jpg
   humanURL: http://www.convertapi.com/
-  baseURL: https://do.convertapi.com////OpenOffice2Image
-  tags: Open,Office,Image
+  baseURL: https://do.convertapi.com//
+  tags: Documents, File Conversion, File Conversion, Document Conversion, Stack Network,
+    SaaS, Technology, API Provider, Profiles, Images, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/convertapi/openoffice2image-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/convertapi/openoffice2image-post-openapi.md
-- name: Convert API Open Office to PDF
-  x-api-slug: convert-api
+- name: Convert API - Open Office to PDF
+  x-api-slug: openoffice2pdf-post
   description: The API for converting OpenOffice documents to PDF files and Images.
     These file formats mml, odc, odf, odg, odi, odm, odp, ods, odt, otg, oth, otp,
     ots, pxl, sgl, smf, srw, stc, sti, stw, sxc, sxg, sxi, sxm, sxw, vor, wv2 can
     be converted to pdf, pdfa, png, jpg, tif.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/357-convertapi.jpg
   humanURL: http://www.convertapi.com/
-  baseURL: https://do.convertapi.com////OpenOffice2Pdf
-  tags: Open,Office,PDF
+  baseURL: https://do.convertapi.com//
+  tags: Documents, File Conversion, File Conversion, Document Conversion, Stack Network,
+    SaaS, Technology, API Provider, Profiles, Images, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/convertapi/openoffice2pdf-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/convertapi/openoffice2pdf-post-openapi.md
-- name: Convert API
-  x-api-slug: convert-api
-  description: Create PDF easily with our developers API/SDK for Ruby Java .NET C#
-    PHP Shell Delphi.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/357-convertapi.jpg
-  humanURL: http://www.convertapi.com/
-  baseURL: https://do.convertapi.com//
-  tags: Open
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/convertapi/openapi.md
 x-common:
 - type: x-documentation
   url: http://www.convertapi.com/api/web-pdf-api
+- type: x-api-gallery
+  url: http://context.io.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://convertapi.stack.network
 - type: x-base
   url: http://do.convertapi.com/
 - type: x-email

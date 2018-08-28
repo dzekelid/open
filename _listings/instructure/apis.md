@@ -7,47 +7,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instru
 x-kinRank: "8"
 x-alexaRank: "367"
 tags: Open
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Instructure Canvas Polls API Open a poll session
-  x-api-slug: instructure-canvas-polls-api
+- name: Instructure Canvas Polls API - Open a poll session
+  x-api-slug: pollspoll-idpoll-sessionsidopen-get
   description: Open a poll session.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//polls/{poll_id}/poll_sessions/id/open
-  tags: Polls,Poll,Id,Poll,Sessions,Id,Open
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/instructure/pollspoll-idpoll-sessionsidopen-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/instructure/pollspoll-idpoll-sessionsidopen-get-openapi.md
-- name: Instructure Canvas Polls API List opened poll sessions
-  x-api-slug: instructure-canvas-polls-api
-  description: List opened poll sessions.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//poll_sessions/opened
-  tags: Poll,Sessions,Opened
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/instructure/poll-sessionsopened-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/instructure/poll-sessionsopened-get-openapi.md
-- name: Instructure Canvas Polls API
-  x-api-slug: instructure-canvas-polls-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: Open
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/open/master/_listings/instructure/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://instagram.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://instructure.stack.network
 - type: x-blog
   url: http://blog.instructure.com
 - type: x-blog-rss
